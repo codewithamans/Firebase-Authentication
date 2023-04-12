@@ -26,7 +26,7 @@ const Login = () => {
           //   await updateProfile(user, {
           //     displayName: `${values.firstname} ${values.lastname}`,
           //   });
-          navigate("/dashboard");
+          navigate("/");
         })
         .catch((error) => {
           console.log(error);
@@ -45,7 +45,7 @@ const Login = () => {
 
         const user = result.user;
         console.log(user);
-        navigate("/dashboard");
+        navigate("/");
       })
       .catch((error) => {
         alert(error);

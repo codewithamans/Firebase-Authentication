@@ -29,7 +29,7 @@ const SignUp = () => {
           await updateProfile(user, {
             displayName: `${values.firstname} ${values.lastname}`,
           });
-          navigate("/");
+          navigate("/login");
         })
         .catch((error) => {
           console.log(error);
@@ -109,7 +109,7 @@ const SignUp = () => {
         </button>
         <div className="flex">
           <h4 className="text-color">Already have an account ?</h4>
-          <Link to="/ " className="text-color">
+          <Link to="/login " className="text-color">
             Login
           </Link>
         </div>

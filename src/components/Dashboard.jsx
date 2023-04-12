@@ -40,7 +40,7 @@ const Dashboard = () => {
         type="text"
         className="submit"
         onClick={() => {
-          navigate("/");
+          navigate("/login");
         }}
       >
         Login

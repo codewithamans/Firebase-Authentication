@@ -24,9 +24,15 @@ body {
   background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
-  height: 500px;
+  height: auto;
   padding: 20px;
   width: 320px;
+}
+.text-red {
+  color: red;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 .title {
@@ -44,6 +50,7 @@ body {
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
+  text-align: center;
 }
 
 .input-container {
@@ -121,7 +128,7 @@ body {
 .text-color {
   color: white;
   font-family: sans-serif;
-  margin-top: 15px;
+  margin-top: 25px;
   /* text-align: center; */
 }
 .submit {
@@ -133,7 +140,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   height: 50px;
-  margin-top: 38px;
+  margin-top: 28px;
   /* outline: 0; */
   text-align: center;
   width: 100%;
@@ -141,4 +148,10 @@ body {
 
 .submit:active {
   background-color: #06b;
+}
+.flex {
+  display: flex;
+}
+.flex :first-child {
+  margin-right: 10px;
 }
